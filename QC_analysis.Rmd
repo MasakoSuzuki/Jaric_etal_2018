@@ -1,0 +1,33 @@
+---
+title: "chipQC_analysis"
+output:
+  word_document:
+    toc: yes
+    toc_depth: '4'
+---
+
+```{r setup, include=FALSE}
+library(ChIPQC)
+```
+
+# QC
+## Loading metadata
+
+This analysis only examins chromosome 1. 
+
+```{r metadata, message=TRUE,echo=FALSE}
+samples = read.csv("sample_metafile.csv")
+samples[,1:5]
+```
+
+## Loading files
+
+```{r loading files, echo=FALSE,message=FALSE}
+QC_data = ChIPQC(samples,annotaiton="mm10")
+```
+
+## Report: QC Summary table
+
+```{r QC Summary table, echo=FALSE,message=TRUE}
+QCmetrics(QC_data)
+```
