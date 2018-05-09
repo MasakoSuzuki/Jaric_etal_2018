@@ -1,0 +1,10 @@
+﻿SampleID,Tissue,Factor,Condition,Replicate,bamReads,Peaks
+Pr_1,Brain,Female,Proestrus,1,Bams/Pr_1_final.bam,Bams/Peaks_shift/Pr_1_peaks.narrowPeak
+Pr_2,Brain,Female,Proestrus,2,Bams/Pr_2_final.bam,Bams/Peaks_shift/Pr_2_peaks.narrowPeak
+Pr_3,Brain,Female,Proestrus,3,Bams/Pr_3_final.bam,Bams/Peaks_shift/Pr_3_peaks.narrowPeak
+Di_1,Brain,Female,Diestrus,1,Bams/Di_1_final.bam,Bams/Peaks_shift/Di_1_peaks.narrowPeak
+Di_2,Brain,Female,Diestrus,2,Bams/Di_2_final.bam,Bams/Peaks_shift/Di_2_peaks.narrowPeak
+Di_3,Brain,Female,Diestrus,3,Bams/Di_3_final.bam,Bams/Peaks_shift/Di_3_peaks.narrowPeak
+Ma_1,Brain,Male,Males,1,Bams/Ma_1_final.bam,Bams/Peaks_shift/Ma_1_peaks.narrowPeak
+Ma_2,Brain,Male,Males,2,Bams/Ma_2_final.bam,Bams/Peaks_shift/Ma_2_peaks.narrowPeak
+Ma_3,Brain,Male,Males,3,Bams/Ma_3_final.bam,Bams/Peaks_shift/Ma_3_peaks.narrowPeak
