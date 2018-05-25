@@ -30,5 +30,5 @@ We re-performed peak-calling on the down-sampled bam files using same parameters
 IDR was calculated with idr (idr/2.0.2/python.3.4.1-atlas-3.11.30). The obtained peaks were merged with bedtools merge function (bedtools2/2.26.0/gcc.4.4.7). We used 0.05 as the threshold. IDR_cal.sh has the code used in this study.
 Data quality
 
-We performed QC on the obtained reads with the ChIPQC Bioconductor package. The stats were listed in Suppl. Table XXX in the manuscript. We obtained 180589 to 310212 peaks at FDR<0.05 (average=229,639, standard deviation=44,830).  QC_analysis.rmd has the code used in this study.
+We performed QC on the obtained reads with the ChIPQC Bioconductor package. We obtained 180589 to 310212 peaks at FDR<0.05 (average=229,639, standard deviation=44,830).  QC_analysis.rmd has the code used in this study.
 
