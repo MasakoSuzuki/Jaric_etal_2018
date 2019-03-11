@@ -32,3 +32,14 @@ Data quality
 
 We performed QC on the obtained reads with the ChIPQC Bioconductor package. We obtained 180589 to 310212 peaks at FDR<0.05 (average=229,639, standard deviation=44,830).  QC_analysis.rmd has the code used in this study.
 
+2019 Mar 11 Added
+
+For nucRNA-seq analysis
+
+We performed 100 bp paired-end sequencing using the Illumina HiSeq 4000 instrument.  We obtained 39 to 42  million paired reads per sample (mean=41,290,882 and  standard deviation=1,428,555)
+
+Alignment
+We used STAR to align the reference genome (mm10) with GENCODE version m11 annotation.
+
+Differentially expressed gene
+The gene expression status was analyzed with DESeq2.
