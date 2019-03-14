@@ -5,8 +5,7 @@
 #$ -pe smp 1
 #$ -l h_vmem=3G
 #$ -S /bin/bash
-#$ -m ea
-#$ -M masako_suzuki@mac.com
+
 
 ## testing reproducibility between samples
 
